@@ -1,9 +1,10 @@
 # AB-testing
 
 Good day, this research was made while I was studying in Yandex.
-Purpose: evaluate the results of the A/B test.
 
-Stages: 
+**Purpose**: evaluate the results of the A/B test.
+
+**Stages**: 
 1) data loading, data preprocessing
 2) data integrity check
 3) assessment of the correctness of testing
@@ -12,9 +13,9 @@ Stages:
 6) evaluation of test results
 7) conclusions
    
-Stack: pandas, seaborn, matplotlib, matplotlib_venn, numpy, warnings, scipy.stats, math, plotly, missingno, collections, datetime
+**Stack**: pandas, seaborn, matplotlib, matplotlib_venn, numpy, warnings, scipy.stats, math, plotly, missingno, collections, datetime
 
-Conclusions:
+**Conclusions**:
 1) Checking and preprocessing was carried out in 4 datasets;
 2) The testing carried out meets the requirements of the technical specifications;
 3) The conversion percentage for group B among recommender_system_test participants at all stages is not lower than 50%;
